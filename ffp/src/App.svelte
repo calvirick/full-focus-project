@@ -5,6 +5,7 @@
   import Date from "./lib/Date.svelte";
   import Day from "./lib/Day.svelte";
   import RitualList from "./lib/RitualList.svelte";
+  import Tasks from "./lib/Tasks.svelte";
 </script>
 
 <main>
@@ -12,9 +13,8 @@
   <WeeksRemaining />
   <RitualList />
   <Day />
-  <!-- Tasks sub components are = Big3List and OtherTasks -->
-  <!-- <Tasks />
-  <Schedule />
+  <Tasks />
+  <!--<Schedule />
   <Symbols /> -->
 </main>
 
